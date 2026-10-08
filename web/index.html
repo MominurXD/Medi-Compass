@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MediCompass — Health Guidance Assistant</title>
+  <meta name="description" content="Safety-first symptom guidance and medication information using source-linked guidance and public drug-label data.">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span>MC</span><div><strong>MediCompass</strong><small>health guidance assistant</small></div></div>
+    <div class="safety"><b>Safety first</b><p>Not a diagnosis or prescription service. Red-flag symptoms are checked before conversational guidance.</p></div>
+    <h3>Try a question</h3>
+    <button class="prompt" data-prompt="I have a headache. What can I do to feel better?">Headache guidance</button>
+    <button class="prompt" data-prompt="I have a sore throat and it hurts to swallow">Sore throat</button>
+    <button class="prompt" data-prompt="Tell me about ibuprofen">Medicine information</button>
+    <button class="prompt" data-prompt="Can I take ibuprofen with warfarin?">Interaction question</button>
+    <div class="sources-note"><b>Data sources</b><small>NHS public guidance · openFDA drug labels</small></div>
+    <div class="privacy"><b>Privacy by design</b><small>Messages are processed for the response and are not stored in a conversation database by default.</small></div>
+  </aside>
+
+  <main>
+    <header class="topbar"><span>MEDICOMPASS / SAFETY-FIRST HEALTH GUIDANCE</span><span>Independent demo · not NHS-affiliated</span></header>
+
+    <section class="hero">
+      <div>
+        <span class="eyebrow">SYMPTOMS · MEDICATION · SELF-CARE · TRIAGE</span>
+        <h1>Useful health guidance.<br><em>With clear safety boundaries.</em></h1>
+        <p>MediCompass combines intent classification, source-linked symptom retrieval, deterministic red-flag triage and public medication-label data in one web assistant.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong>08</strong><small>SYMPTOM TOPICS</small></div>
+        <div><strong>LIVE</strong><small>DRUG LABEL DATA</small></div>
+        <div><strong>1ST</strong><small>RED-FLAG TRIAGE</small></div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div class="chat-shell">
+        <div class="chat-head"><div><span class="eyebrow blue">PATIENT CHAT</span><h2>Ask MediCompass</h2></div><span class="mode">UK DEMO · 111 / 999</span></div>
+        <div id="messages" class="messages">
+          <div class="message assistant">
+            <span class="avatar">MC</span>
+            <div class="bubble"><b>Hi — I can help with general symptom guidance and medication information.</b><p>Tell me the main symptom, how severe it is, how long it has lasted, or the exact medicine name.</p><small>I do not diagnose conditions or provide personalised prescriptions or doses.</small></div>
+          </div>
+        </div>
+        <div id="emergency" class="emergency hidden"><b>Emergency guidance shown</b><span>This chat should not delay emergency care.</span></div>
+        <form id="chat-form" class="composer">
+          <textarea id="message" rows="2" maxlength="1200" placeholder="e.g. I have had a cough for 4 days..." required></textarea>
+          <button type="submit">Send →</button>
+        </form>
+      </div>
+
+      <aside class="inspector">
+        <div class="card">
+          <div class="card-kicker">RESPONSE SAFETY</div>
+          <h3 id="urgency-title">Waiting for a question</h3>
+          <span id="urgency-badge" class="urgency information">INFORMATION</span>
+          <p id="safety-note">Responses show general health information and source provenance.</p>
+        </div>
+        <div class="card">
+          <div class="card-kicker">MEDICATION RECORD</div>
+          <h3 id="med-title">No medicine loaded</h3>
+          <div id="med-content"><p class="muted">Ask about a generic or brand name to query the public drug-label dataset.</p></div>
+        </div>
+        <div class="card">
+          <div class="card-kicker">SOURCES</div>
+          <div id="sources"><p class="muted">Sources used for the answer will appear here.</p></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="methodology">
+      <article><b>01 / TRIAGE</b><h4>Red flags run first</h4><p>Emergency and urgent patterns are evaluated before the NLP response layer.</p></article>
+      <article><b>02 / NLP</b><h4>Intent classification</h4><p>TF-IDF + Logistic Regression routes symptom, self-care, medication and interaction questions.</p></article>
+      <article><b>03 / RETRIEVAL</b><h4>Source-linked guidance</h4><p>Symptom guidance is retrieved from a transparent structured dataset.</p></article>
+      <article><b>04 / DRUG DATA</b><h4>Public label provenance</h4><p>Medication warnings, interactions and adverse reactions come from openFDA labels.</p></article>
+    </section>
+
+    <footer>© 2026 Mohammed Mominur Rahman Miah · NHS-inspired colour palette · independent project</footer>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
