@@ -1,0 +1,28 @@
+text,intent
+hello,greeting
+hi there,greeting
+can you help me,greeting
+what can you do,greeting
+I have a headache,symptom
+my throat hurts,symptom
+I keep coughing,symptom
+I have diarrhoea,symptom
+I feel feverish,symptom
+I feel dizzy,symptom
+what can I do for a sore throat,self_care
+home remedies for cough,self_care
+how can I ease a headache,self_care
+what should I drink when vomiting,self_care
+tell me about ibuprofen,medication
+what is cetirizine used for,medication
+medicine information for omeprazole,medication
+side effects of ibuprofen,side_effects
+what adverse effects can cetirizine cause,side_effects
+warnings for paracetamol,side_effects
+can I take ibuprofen with warfarin,interaction
+interaction between cetirizine and another medicine,interaction
+is this medicine safe with my tablets,interaction
+I cannot breathe,emergency
+my throat is swelling,emergency
+I have crushing chest pain,emergency
+I suddenly cannot speak properly,emergency

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "headache",
+    "name": "Headache",
+    "keywords": ["headache", "head pain", "migraine", "pain in my head"],
+    "summary": "Many headaches improve with time, fluids, rest and avoiding common triggers.",
+    "self_care": ["Drink water regularly.", "Rest if you are unwell and try to reduce stress.", "Avoid skipping meals and avoid alcohol while the headache is active.", "A pharmacist can advise whether an over-the-counter pain reliever is suitable for you."],
+    "urgent": ["Headache with vomiting, vision problems, or symptoms that are worsening or repeatedly returning should be assessed urgently."],
+    "emergency": ["A sudden extremely painful headache, seizure, new weakness/numbness, difficulty speaking/walking, confusion, loss of vision, or a stiff neck with a very high temperature needs emergency assessment."],
+    "source_title": "NHS — Headaches",
+    "source_url": "https://www.nhs.uk/symptoms/headaches/"
+  },
+  {
+    "id": "cough",
+    "name": "Cough",
+    "keywords": ["cough", "coughing", "dry cough", "chesty cough"],
+    "summary": "A new cough often improves on its own, but breathing difficulty, chest pain or coughing blood need medical assessment.",
+    "self_care": ["Rest and drink plenty of fluids.", "Warm lemon and honey may soothe a cough for people over 1 year old.", "A pharmacist can advise on symptom-relief products and whether they are suitable for you."],
+    "urgent": ["Seek urgent advice if the cough becomes very bad, you feel very unwell, have chest pain, have difficulty breathing, or cough up blood."],
+    "emergency": ["Severe breathing difficulty or other life-threatening symptoms require emergency help."],
+    "source_title": "NHS — Cough",
+    "source_url": "https://www.nhs.uk/symptoms/cough/"
+  },
+  {
+    "id": "sore_throat",
+    "name": "Sore throat",
+    "keywords": ["sore throat", "throat hurts", "pain swallowing", "scratchy throat"],
+    "summary": "Sore throats are common and often improve within about a week.",
+    "self_care": ["Drink water and choose cool or soft foods if they are easier to swallow.", "Adults and older children can consider warm salt-water gargles if safe for them.", "Rest and avoid smoking or smoky places.", "A pharmacist can advise on pain relief or medicated lozenges."],
+    "urgent": ["Very high temperature, dehydration, weakened immunity, or symptoms that do not improve should be assessed."],
+    "emergency": ["Difficulty breathing, inability to swallow, drooling, stridor, or rapidly worsening severe symptoms need emergency help."],
+    "source_title": "NHS — Sore throat",
+    "source_url": "https://www.nhs.uk/symptoms/sore-throat/"
+  },
+  {
+    "id": "diarrhoea_vomiting",
+    "name": "Diarrhoea or vomiting",
+    "keywords": ["diarrhoea", "diarrhea", "vomiting", "being sick", "stomach bug", "throwing up"],
+    "summary": "The main priority is preventing dehydration and watching for signs that need urgent review.",
+    "self_care": ["Take frequent small sips of fluid if you feel sick.", "Rest and eat when you feel able.", "A pharmacist can advise about oral rehydration products and whether other medicines are appropriate."],
+    "urgent": ["Seek urgent advice if you cannot keep fluids down, have signs of dehydration, bloody diarrhoea, or symptoms lasting longer than expected."],
+    "emergency": ["Vomiting blood, severe sudden abdominal pain, severe breathing difficulty, confusion, or being unresponsive needs emergency help."],
+    "source_title": "NHS — Diarrhoea and vomiting",
+    "source_url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/"
+  },
+  {
+    "id": "fever",
+    "name": "High temperature / fever",
+    "keywords": ["fever", "high temperature", "temperature", "shivery", "chills"],
+    "summary": "A high temperature in adults is commonly defined as 38°C or above, although how you feel also matters.",
+    "self_care": ["Rest and drink enough fluid to avoid dehydration.", "Monitor how you feel and seek advice if symptoms worsen or you are concerned.", "A pharmacist can advise on suitable over-the-counter symptom relief."],
+    "urgent": ["Persistent or worsening fever, severe dehydration, significant vulnerability, or concerning associated symptoms should be reviewed."],
+    "emergency": ["Fever with severe breathing difficulty, confusion, a seizure, a non-fading rash, or a stiff neck with severe headache needs emergency assessment."],
+    "source_title": "NHS — High temperature in adults",
+    "source_url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+  },
+  {
+    "id": "chest_pain",
+    "name": "Chest pain",
+    "keywords": ["chest pain", "chest pressure", "tight chest", "chest discomfort"],
+    "summary": "Chest pain has many causes and should not be self-diagnosed.",
+    "self_care": ["Do not rely on home treatment to rule out a serious cause of new chest pain."],
+    "urgent": ["Chest pain that comes and goes, or pain that has settled but still worries you, should be medically assessed."],
+    "emergency": ["Sudden chest pain or pressure that does not go away, pain spreading to an arm/neck/jaw/back, or chest pain with sweating, sickness, light-headedness or shortness of breath needs emergency help."],
+    "source_title": "NHS — Chest pain",
+    "source_url": "https://www.nhs.uk/symptoms/chest-pain/"
+  },
+  {
+    "id": "shortness_of_breath",
+    "name": "Shortness of breath",
+    "keywords": ["shortness of breath", "breathless", "difficulty breathing", "cannot breathe", "can't breathe", "gasping"],
+    "summary": "Breathlessness can be serious and should not be self-diagnosed.",
+    "self_care": ["If breathlessness is new, worsening or unexplained, seek medical advice rather than relying on home treatment."],
+    "urgent": ["Contact urgent medical services if breathing is more difficult than usual, or if breathlessness is associated with coughing blood, leg swelling or palpitations."],
+    "emergency": ["Severe breathing difficulty, gasping/choking, inability to speak full sentences, chest tightness/heaviness, pale/blue/grey lips or skin, or sudden confusion needs emergency help."],
+    "source_title": "NHS — Shortness of breath",
+    "source_url": "https://www.nhs.uk/symptoms/shortness-of-breath/"
+  },
+  {
+    "id": "allergy",
+    "name": "Allergic reaction",
+    "keywords": ["allergic reaction", "allergy", "hives", "swollen lips", "swollen tongue", "throat swelling"],
+    "summary": "Allergic reactions can range from mild symptoms to anaphylaxis.",
+    "self_care": ["Avoid a suspected trigger if you can do so safely.", "For mild allergy symptoms, a pharmacist can advise whether an antihistamine or other treatment is suitable."],
+    "urgent": ["If you are unsure whether symptoms are becoming more serious, seek urgent medical advice."],
+    "emergency": ["Sudden swelling of the lips, mouth, throat or tongue; severe breathing difficulty; throat tightness; fainting; or marked confusion can be signs of anaphylaxis and need emergency help."],
+    "source_title": "NHS — Allergies",
+    "source_url": "https://www.nhs.uk/conditions/allergies/"
+  }
+]
